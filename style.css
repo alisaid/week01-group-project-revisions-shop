@@ -30,6 +30,15 @@ html {
 	cursor: pointer;
 }
 
+a.button {
+	background-color: #fc2727;
+}
+
+a.button:hover {
+	background-color: green;
+	border: 1px solid black;
+}
+
 /* Site title and top navigation */
 .site-header {
 	display: flex;
@@ -75,7 +84,9 @@ html {
 }
 
 .item__discount {
-	color: #7fcf80;
+	font-weight: bold;
+	color: #fc2727;
+
 }
 
 /* Footer */
@@ -84,3 +95,5 @@ html {
 	font-size: 12px;
 	text-align: center;
 }
+
+
